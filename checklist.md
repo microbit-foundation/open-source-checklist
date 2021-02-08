@@ -7,13 +7,13 @@ This checklist does not replace the decision about what should be released, unde
 
 ## ToC
 
-- [1. Public Project Name](#)
-- [2. Licensing Information](#)
-- [3. Project Information](#)
-- [4. Content](#)
-- [5. Continuous Integration](#)
-- [6. Code of Conduct](#)
-- [7. Security](#)
+- [Public Project Name](#1-public-project-name)
+- [Licensing Information](#2-licensing-information)
+- [Project Information](#3-project-information)
+- [Content](#4-content)
+- [Continuous Integration](#5-continuous-integration)
+- [Code of Conduct](#6-code-of-conduct)
+- [Security](#7-security)
 
 
 ## 1. Public Project Name
@@ -33,8 +33,9 @@ In any case, it's important to make it easy for users and contributors of our pr
 
 - [ ] 2.1 **License file:** Place the complete text of the outbound license in its own file called, LICENSE or LICENSE.md, at the top-level directory.
 - [ ] 2.2 **License and copyright notice:** Place the SPDX-License-Identifier tag for the outbound license in every file at or near the top of the file in a comment. The SPDX-License-Identifier syntax may consist of a single SPDX license identifier or an SPDX License Expression to represent a single license or a compound set of licenses (respectively) that apply to that file. If a file contains third party open source under a different license, see section on third party open source below. Place the our copyright notice in every file we author as shown below.
-  > SPDX-License-Identifier: Apache-2.0
   > (c) [year file created] - [last year file modified], Micro:bit Educational Foundation and contributors
+  >
+  > SPDX-License-Identifier: Apache-2.0
   - For more information on the use of SPDX identifiers, see: https://spdx.org/ids or https://spdx.org/ids-how
 - [ ] 2.3 **Identify the inbound and outbound license in the README:** Include a short, concise statement as to the outbound license in the README, preferably in a section called “license” and link to the LICENSE file and CONTRIBUTING file as appropriate.
 - [ ] 2.4 **Identify the inbound and outbound license on the project’s website (if applicable):**  Include a short, concise statement as to the outbound and inbound license in a conspicuous place on the project’s website, if there is one. This can be simply the same statement used in the README, with the appropriate links.
@@ -49,17 +50,17 @@ In any case, it's important to make it easy for users and contributors of our pr
 
 - [ ] 3.1 The GitHub description (underneath the repo title) is clear and concise and includes, if applicable, a link to the relevant website.
 - [ ] 3.2 The project has a descriptive README.md file rendered on the GitHub repo entry page. The README includes:
-    - [ ] Project title
-    - [ ] Project description
-    - [ ] Project introduction
-    - [ ] Inbound and Outbound licenses (more info in the "2. Licensing Information" section)
-    - [ ] Links to relevant documentation or information
-    - [ ] Link to the Code Of Conduct
+    - [ ] Project title.
+    - [ ] Project description.
+    - [ ] Project introduction.
+    - [ ] Inbound and Outbound licenses (more info in the "2. Licensing Information" section).
+    - [ ] Links to relevant documentation or information.
+    - [ ] Link to the Code Of Conduct.
 - [ ] 3.3 Where applicable, ensure there is appropriate additional documentation (e.g., technical documentation, webpage source, etc.).
 - [ ] 3.4 The project is versioned (the preferred versioning system is Semantic Versioning 2.0.0).
 - [ ] 3.5 GitHub Releases are used to mark releases and releases are git tagged with a description.
 - [ ] 3.6 Changes for each release are captured, either in a CHANGELOG file at the top-level directory, or within the GitHub release descriptions.
-- [ ] 3.7 There is a .gitignore file excluding everything we don’t want versioned.
+- [ ] 3.7 There is a `.gitignore` file excluding everything we don’t want versioned.
 - [ ] 3.8 There are contributing guidelines (preferably in a CONTRIBUTING file) that communicate ways to contribute, any guidance regarding contributing (e.g., relevant coding standards) or related information. 
 - [ ] 3.9 (Optional) Add topics to the repository.
 - [ ] 3.10 (Optional) Add issue templates for common contributions as appropriate or relevant.
@@ -77,14 +78,14 @@ Check commits, documentation, code and go through the git history to check for t
 
 ## 5. Continuous Integration
 
-- [ ] 5.1 CI scripts do not contain any passwords or secrets
-- [ ] 5.2 CI SaaS project does not contain any env var that could leak. If there are env vars, the CI project is configured to not trust forks and PRs
-- [ ] 5.3 CI SaaS global settings do not contain any env var or secret shared to this project that could leak
+- [ ] 5.1 CI scripts do not contain any passwords or secrets.
+- [ ] 5.2 CI SaaS project does not contain any env var that could leak. If there are env vars, the CI project is configured to not trust forks and PRs.
+- [ ] 5.3 CI SaaS global settings do not contain any env var or secret shared to this project that could leak.
 
 
 ## 6. Code of Conduct
 
-- [ ] 6.1 Include a section in the README for the Code of Conduct and link to the Foundation Code Of Conduct
+- [ ] 6.1 Include a section in the README for the Code of Conduct and link to the Foundation Code Of Conduct.
 - [ ] 6.2 If there is a project website, include information about the Code of Conduct with the appropriate links.
 
 
