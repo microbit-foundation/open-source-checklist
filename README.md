@@ -6,4 +6,6 @@ The checklist can be found in the [checklist.md](checklist.md) file.
 
 ## License
 
-TBD.
+The contents of this repository are released under the [Creative Commons Attribution 4.0 International license](LICENSE).
+
+SPDX-License-Identifier: CC-BY-4.0

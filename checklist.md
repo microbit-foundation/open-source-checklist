@@ -93,3 +93,8 @@ Check commits, documentation, code and go through the git history to check for t
 
 [something to consider adding? Might have a look at relevant standards here https://www.coreinfrastructure.org/programs/badge-program/]
 
+-----
+
+This document is released under the [Creative Commons Attribution 4.0 International license](LICENSE).
+
+SPDX-License-Identifier: CC-BY-4.0
