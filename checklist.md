@@ -22,6 +22,9 @@ When naming a project, we need to consider if we also want to brand or market th
 
 See http://fossmarks.org/ for more information on trademarks and choosing a project name.
 
+- [ ] 1.1 Project name has been approved by the functional team leader.
+- [ ] 1.2 The project follows the micro:bit brand guidelines: https://microbit.org/brand-guidelines/
+
 
 ## 2. Licensing Information
 
@@ -91,7 +94,7 @@ Check commits, documentation, code and go through the git history to check for t
 
 ## 7. Security
 
-[something to consider adding? Might have a look at relevant standards here https://www.coreinfrastructure.org/programs/badge-program/]
+- [ ] 7.1 The GitHub Security & Analysis features are enabled: https://github.com/features/security
 
 -----
 
